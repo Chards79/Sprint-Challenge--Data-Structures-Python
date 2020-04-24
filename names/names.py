@@ -17,15 +17,7 @@ duplicates = []  # Return the list of duplicates in this data structure
 #     for name_2 in names_2:
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
-
-
-class BinarySearchTree:
-    def __init__(self, value):
-        self.left = names_1
-        self.right = names_2
-
-    def insert(self, value):
-
+duplicates = [name_1 for name_1 in names_1 if name_1 in names_2]
 
 end_time = time.time()
 print(f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
